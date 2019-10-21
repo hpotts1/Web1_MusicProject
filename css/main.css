@@ -98,6 +98,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header{
+  background-color: #065f61;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav{
+  
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +285,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
