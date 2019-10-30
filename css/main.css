@@ -109,20 +109,22 @@ header{
   align-items: center;
   margin: 0 auto;
   width: 100%;
+  position: fixed;
 }
 
 .navbar{
   width: 95%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: top;
   margin: 0 auto;
+  position: fixed;
 }
 
 .Hero{
   width: 100%;
   background-image: url(../img/hero_img.jpg);
-  height: 380px;
+  height: 360px;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -208,14 +210,15 @@ header{
     font-style: italic;
   }
 
-.FindUs_hero{
+.FindUs_img{
     width: 100%;
     background-image: url(../img/findus_img.jpg);
-    height: 645px;
-    background-attachment: fixed;
-    background-position: center;
+    z-index: 1;
+    height: 630px;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: #B0C7CA;
   }
 
   .findus_title{
@@ -224,19 +227,53 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 2%;
-    padding-left: 2%;
   }
+
 
 
   .FindUs{
     background-color: #B0C7CA;
+    display: flex;
+    align-content: center;
+    margin-top: -5%;
   }
 
-.findus_text{
-padding: inherit;
+.FindUs_setup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.findus_text{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 5%;
+}
 
+.findus_dates{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.findus_dates ul{
+  list-style-type: none;
+  justify-content: center;
+
+}
+
+.findus_dates ul li{
+  font-weight: bold;
+  font-size: 20px;
+}
 
 /* font-family: 'Poppins', sans-serif; */
 
