@@ -102,23 +102,92 @@ body{
   /*font-family: 'Caveat', cursive;*/
 }
 
+.divider{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.sidebar{
+  min-width: 180px;
+}
+
+.main{
+  width: 90%;
+}
+
+.flex-container{
+  display: -webkit-flex;
+  display: flex;
+  overflow-y: hidden;
+  height: 100%;
+  }
+
+.flex-item {
+    padding: 4px;
+}
+
+#testamentbtn{
+  background-color: #065F61;
+  height: 100%;
+}
+
+#findbtn{
+  background-color: #B0C7CA;
+  height: 100%;
+}
+
+#aboutbtn{
+  background-color: #CA887A;
+  height: 100%;
+}
+
+#homebtn{
+  background-color: #fff;
+  height: 100%;
+}
+
+.rotateme{
+  transform: rotate(-90deg);
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+
+.expand{
+}
+
+
 header{
   background-color: #065f61;
   min-height: 65px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  position: fixed;
 }
 
 .navbar{
   width: 95%;
   display: flex;
   justify-content: flex-end;
-  align-items: top;
+  align-items: center;
   margin: 0 auto;
-  position: fixed;
+
+}
+
+#mobilemenu{
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#mobilemenu:hover{
+  opacity: .5;
 }
 
 .Hero{
@@ -217,7 +286,7 @@ header{
     height: 630px;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #B0C7CA;
   }
 
@@ -275,6 +344,54 @@ header{
   font-size: 20px;
 }
 
+/* -- Side Nav -- */
+
+.sidenav {
+  height: 25%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #065f61;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 /* font-family: 'Poppins', sans-serif; */
 
 
