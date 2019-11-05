@@ -160,6 +160,16 @@ body{
 }
 
 
+.navbar{
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 1%;
+  position: fixed;
+}
+
 header{
   background-color: #065f61;
   min-height: 65px;
@@ -170,14 +180,6 @@ header{
   width: 100%;
 }
 
-.navbar{
-  width: 95%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 0 auto;
-
-}
 
 #mobilemenu{
   color: #fff;
@@ -189,6 +191,8 @@ header{
 #mobilemenu:hover{
   opacity: .5;
 }
+
+/* Hero Section */
 
 .Hero{
   width: 100%;
@@ -205,7 +209,7 @@ header{
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  padding-top: 210px;
+  padding-top: 20%;
 }
 
   h2{
@@ -219,6 +223,8 @@ header{
     font-size: 70px;
     padding-left: 1%;
   }
+
+/* About Us Section */
 
 .AboutUs{
   background-color: #CA887A;
@@ -279,6 +285,9 @@ header{
     font-style: italic;
   }
 
+
+/* Find Us Section */
+
 .FindUs_img{
     width: 100%;
     background-image: url(../img/findus_img.jpg);
@@ -297,8 +306,6 @@ header{
     align-items: flex-start;
     padding-top: 2%;
   }
-
-
 
   .FindUs{
     background-color: #B0C7CA;
@@ -328,7 +335,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 67%;
   flex-direction: row;
   margin: 0 auto;
 }
@@ -342,6 +349,87 @@ header{
 .findus_dates ul li{
   font-weight: bold;
   font-size: 20px;
+}
+
+
+h5{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+/* Testament Section */
+
+h6{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.Testament{
+  background-color: #065F61;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.Testament_title{
+  width: 62%;
+  display: flex;
+  text-align: left;
+}
+
+.test_text{
+  width:60%;
+  color: #fff;
+  text-align: left;
+}
+
+.section_box2{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.test_box{
+width: 360px;
+height: 250px;
+display: block;
+justify-content: center;
+align-items: center;
+margin: 2%;
+
+background: rgba(255, 255, 255, 0.85);
+box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+}
+
+.testbox_text{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4B4B4B;
+}
+
+.footer{
+  display:
+  
 }
 
 /* -- Side Nav -- */
