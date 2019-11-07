@@ -161,13 +161,11 @@ body{
 
 
 .navbar{
-  width: 95%;
+  width: 60%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
-  padding-right: 1%;
-  position: fixed;
 }
 
 header{
@@ -178,6 +176,8 @@ header{
   align-items: center;
   margin: 0 auto;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 
@@ -197,7 +197,7 @@ header{
 .Hero{
   width: 100%;
   background-image: url(../img/hero_img.jpg);
-  height: 360px;
+  height: 15%;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -235,7 +235,7 @@ header{
       font-weight: 600;
       color: #fff;
       font-size: 50px;
-      padding-left: 1%;
+      padding-left: 2%;
     }
 
   .sectionbox_images{
@@ -272,6 +272,12 @@ header{
     text-align: left;
     padding-bottom: 10%;
   }
+
+      .Love{
+        font-family: 'Caveat', cursive;
+        font-size: 35px;
+        font-weight: bold;
+      }
 
 .sectionbox_verse{
     width: 70%;
@@ -312,6 +318,7 @@ header{
     display: flex;
     align-content: center;
     margin-top: -5%;
+    padding-bottom: 5%;
   }
 
 .FindUs_setup{
@@ -334,23 +341,26 @@ header{
 .findus_dates{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   width: 67%;
   flex-direction: row;
   margin: 0 auto;
 }
 
-.findus_dates ul{
-  list-style-type: none;
-  justify-content: center;
+    .findus_dates ul{
+      list-style-type: none;
+      justify-content: center;
+    }
 
-}
+      .findus_dates ul li{
+        font-weight: bold;
+        font-size: 20px;
+      }
 
-.findus_dates ul li{
-  font-weight: bold;
-  font-size: 20px;
-}
-
+        .themes{
+          font-size: 15px;
+          font-style: italic;
+        }
 
 h5{
   font-size: 15px;
@@ -377,45 +387,45 @@ h6{
   padding-bottom: 5%;
 }
 
-.Testament_title{
-  width: 62%;
-  display: flex;
-  text-align: left;
-}
+  .Testament_title{
+    width: 62%;
+    display: flex;
+    text-align: left;
+  }
 
-.test_text{
-  width:60%;
-  color: #fff;
-  text-align: left;
-}
+    .test_text{
+      width:60%;
+      color: #fff;
+      text-align: left;
+    }
 
-.section_box2{
-width: 80%;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
+    .section_box2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 
-.test_box{
-width: 360px;
-height: 250px;
-display: block;
-justify-content: center;
-align-items: center;
-margin: 2%;
+      .test_box{
+      width: 360px;
+      height: 250px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      margin: 2%;
 
-background: rgba(255, 255, 255, 0.85);
-box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
+      background: rgba(255, 255, 255, 0.85);
+      box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
 
-}
+      }
 
-.testbox_text{
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+    .testbox_text{
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 5%;
 
-}
+    }
 
 /* Footer */
 
@@ -427,10 +437,41 @@ footer{
   background-color: #4B4B4B;
 }
 
-.footer{
-  display:
-  
-}
+  .footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    padding; 1%
+    margin: 0 auto;
+  }
+
+    .copyright{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: left;
+      height; 10%;
+    }
+
+  .footerAGCB{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: right;
+    padding-top: 25%;
+    margin: 0 auto;
+
+  }
+
+    .footerAGCB a{
+      text-decoration: none;
+    }
+
 
 /* -- Side Nav -- */
 
@@ -480,7 +521,161 @@ footer{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Poppins', sans-serif;
+
+/* ---- Media Querys ---- */
+
+/* On screens that are 1400px wide or less */
+@media screen and (max-width: 1400px) {
+
+}
+
+/* On screens that are 1000px wide or less */
+@media screen and (max-width: 1000px) {
+
+  .sidebar{
+    display: none;
+    min-width: 180px;
+  }
+
+  .main{
+    width: 100%;
+    margin: auto;
+  }
+
+  .flex-container{
+    display: none;
+    display: -webkit-flex;
+    display: flex;
+    overflow-y: hidden;
+    height: 100%;
+    }
+
+  .flex-item {
+    display: none;
+      padding: 4px;
+  }
+
+  #testamentbtn{
+    display: none;
+    background-color: #065F61;
+    height: 100%;
+  }
+
+  #findbtn{
+    display: none;
+    background-color: #B0C7CA;
+    height: 100%;
+  }
+
+  #aboutbtn{
+    display: none;
+    background-color: #CA887A;
+    height: 100%;
+  }
+
+  #homebtn{
+    display: none;
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .rotateme{
+    display: none;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 50px;
+    width: 100%;
+  }
+
+  .expand{
+    display: none;
+  }
+
+  .navbar{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 12%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 18%;
+  }
+
+    h2{
+      font-weight: 600;
+      font-size: 60px;
+      padding-left: 2%;
+    }
+
+    h1{
+      font-weight: 800;
+      font-size: 60px;
+      padding-left: 2%;
+    }
+
+    h3{
+      font-weight: 600;
+      color: #fff;
+      font-size: 40px;
+      padding-left: 2%;
+    }
+
+    .Testament{
+      background-color: #065F61;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 5%;
+    }
+
+
+
+
+}
+
+/* On screens that are 900px wide or less */
+@media screen and (max-width: 900px) {
+
+}
+
+/* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+
+}
+
+/* On screens that are 550px wide or less */
+@media screen and (max-width: 550px) {
+
+}
+
+/* On screens that are 450px wide or less */
+@media screen and (max-width: 450px) {
+
+}
+
+/* On screens that are 300px wide or less */
+@media screen and (max-width: 300px) {
+
+}
 
 
 /* ==========================================================================

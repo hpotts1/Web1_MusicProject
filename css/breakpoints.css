@@ -1,0 +1,43 @@
+/* On screens that are 1800px wide or more */
+@media screen and (min-width: 1800px) {
+  
+}
+
+/* On screens that are 1400px wide or less */
+@media screen and (max-width: 1400px) {
+  
+}
+
+/* On screens that are 1000px wide or less */
+@media screen and (max-width: 1000px) {
+  
+}
+
+/* On screens that are 900px wide or less */
+@media screen and (max-width: 900px) {
+  
+}
+
+/* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* On screens that are 550px wide or less */
+@media screen and (max-width: 550px) {
+  
+}
+
+/* On screens that are 450px wide or less */
+@media screen and (max-width: 450px) {
+  
+}
+
+/* On screens that are 300px wide or less */
+@media screen and (max-width: 300px) {
+  
+}
+
+
+
+
