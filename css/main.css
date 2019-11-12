@@ -195,6 +195,7 @@ header{
 /* Hero Section */
 
 .Hero{
+  display: flex;
   width: 100%;
   background-image: url(../img/hero_img.jpg);
   height: 15%;
@@ -366,7 +367,7 @@ h5{
   font-size: 15px;
   color: #fff;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Testament Section */
@@ -517,13 +518,13 @@ footer{
   padding: 16px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 500px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 /* font-family: 'Poppins', sans-serif;
 
-/* ---- Media Querys ---- */
+/* ----------------------------------------------------------------------------------------------------------- Media Querys ----------------------------------------------------------------------------------------------------------- */
 
 /* On screens that are 1400px wide or less */
 @media screen and (max-width: 1400px) {
@@ -603,19 +604,19 @@ footer{
   .Hero{
     width: 100%;
     background-image: url(../img/hero_img.jpg);
-    height: 12%;
+    height: 15%;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
-  .hero_title{
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    padding-top: 18%;
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 18%;
   }
 
     h2{
@@ -652,13 +653,196 @@ footer{
 
 }
 
-/* On screens that are 900px wide or less */
-@media screen and (max-width: 900px) {
+/* On screens that are 933px wide or less */
+@media screen and (max-width: 933px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 15%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 20%;
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 50px;
+    padding-left: 2%;
+  }
+
+  h1{
+    font-weight: 800;
+    font-size: 50px;
+    padding-left: 2%;
+  }
+
+
 
 }
 
-/* On screens that are 768px wide or less */
-@media screen and (max-width: 768px) {
+
+
+/* On screens that are 870px wide or less */
+@media screen and (max-width: 870px) {
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 19%;
+  }
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 500px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+
+}
+
+/* On screens that are 820px wide or less */
+@media screen and (max-width: 820px) {
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 18%;
+  }
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 500px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+
+}
+
+
+/* On screens that are 778px wide or less */
+@media screen and (max-width: 778px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 16%;
+  }
+
+  .sectionbox_verse{
+      font-size: 20px;
+    }
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 400px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+}
+
+/* On screens that are 705px wide or less */
+@media screen and (max-width: 705px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 14%;
+  }
+
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 400px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+}
+
+/* On screens that are 645px wide or less */
+@media screen and (max-width: 645px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 13%;
+  }
+
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 400px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
 
 }
 
