@@ -445,7 +445,7 @@ footer{
     align-items: flex-start;
     text-align: left;
     flex-wrap: wrap;
-    padding; 1%
+    padding: 1%;
     margin: 0 auto;
   }
 
@@ -524,7 +524,7 @@ footer{
 }
 /* font-family: 'Poppins', sans-serif;
 
-/* ----------------------------------------------------------------------------------------------------------- Media Querys ----------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Media Querys -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* On screens that are 1400px wide or less */
 @media screen and (max-width: 1400px) {
@@ -619,23 +619,33 @@ footer{
       padding-top: 18%;
   }
 
+  .findus_title{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2%;
+    padding-left: 3%;
+  }
+
     h2{
       font-weight: 600;
       font-size: 60px;
-      padding-left: 2%;
+      padding-left: 3%;
     }
 
     h1{
       font-weight: 800;
       font-size: 60px;
-      padding-left: 2%;
+      padding-left: 3%;
     }
 
     h3{
       font-weight: 600;
       color: #fff;
       font-size: 40px;
-      padding-left: 2%;
+      padding-left: 4%;
     }
 
     .Testament{
@@ -648,7 +658,11 @@ footer{
       padding-bottom: 5%;
     }
 
-
+    .Testament_title{
+      width: 95%;
+      display: flex;
+      text-align: left;
+    }
 
 
 }
@@ -671,7 +685,7 @@ footer{
       display: flex;
       justify-content: flex-start;
       align-items: baseline;
-      padding-top: 20%;
+      padding-top: 18%;
   }
 
   h2{
@@ -686,11 +700,18 @@ footer{
     padding-left: 2%;
   }
 
-
+  .footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    margin: 0 auto;
+  }
 
 }
-
-
 
 /* On screens that are 870px wide or less */
 @media screen and (max-width: 870px) {
@@ -713,6 +734,27 @@ footer{
       background-color: #B0C7CA;
     }
 
+    .footer{
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+      flex-wrap: wrap;
+      padding-left: 3%;
+      margin: 0 auto;
+    }
+
+    .footerAGCB{
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      text-align: right;
+      padding-top: 35%;
+      padding-right: 2%;
+      margin: 0 auto;
+    }
 
 }
 
@@ -737,6 +779,27 @@ footer{
       background-color: #B0C7CA;
     }
 
+    .footer{
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+      flex-wrap: wrap;
+      padding-left: 3%;
+      margin: 0 auto;
+    }
+
+    .footerAGCB{
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      text-align: right;
+      padding-top: 35%;
+      padding-right: 2%;
+      margin: 0 auto;
+    }
 
 }
 
@@ -779,7 +842,7 @@ footer{
 }
 
 /* On screens that are 705px wide or less */
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 710px) {
 
   .Hero{
     width: 100%;
@@ -812,8 +875,21 @@ footer{
 
 }
 
+/* On screens that are 658px wide or less */
+@media screen and (max-width: 658px) {
+
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 13.5%;
+  }
+
+
 /* On screens that are 645px wide or less */
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 646px) {
 
   .Hero{
     width: 100%;
@@ -844,20 +920,547 @@ footer{
       background-color: #B0C7CA;
     }
 
+
+    .footerAGCB{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: right;
+      padding-top: 90%;
+    }
+
+}
+/* On screens that are 617px wide or less */
+@media screen and (max-width: 627px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 12.5%;
+  }
+
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 400px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+
+    .findus_dates{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    .sidenav {
+      height: 30%;}
+
+      .sectionbox_images{
+        width: 80%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      .sectionbox_text{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: left;
+        padding-bottom: 10%;
+      }
+
 }
 
-/* On screens that are 550px wide or less */
-@media screen and (max-width: 550px) {
+/* On screens that are 607px wide or less */
+@media screen and (max-width: 607px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/hero_img.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 11%;
+  }
+
+
+/* On screens that are 574px wide or less */
+@media screen and (max-width: 574px) {
+
+  .Hero{
+    width: 100%;
+    background-image: url(../img/Hero.jpg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 60%;
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+  }
+
+  h1{
+    font-weight: 800;
+    font-size: 45px;
+    color: #fff;
+    padding-right: 20%;
+  }
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      height: 400px;
+      background-position: scroll;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+
+
+    .findus_dates{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    .sidenav {
+      height: 30%;}
+
+      .sectionbox_images{
+        width: 80%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      .sectionbox_text{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: left;
+        padding-bottom: 10%;
+      }
+
+      .footer{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+        flex-wrap: wrap;
+        padding-left: 3%;
+        margin: 0 auto;
+      }
+
+      .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 20%;
+      }
+
+      .footerAGCB{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        padding-top: 60%;
+        padding-right: 10%;
+        margin: 0 auto;
+      }
+
 
 }
 
 /* On screens that are 450px wide or less */
 @media screen and (max-width: 450px) {
 
+  .Hero{
+    display: flex;
+    width: 100%;
+    background-image: url(../img/Hero.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 60%;
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+  }
+
+  h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .sectionbox_images{
+    width: 90%;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .imagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 20%;
+  }
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      z-index: 1;
+      height: 200px;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #B0C7CA;
+    }
+
+  .findus_title{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2%;
+  }
+
+  .FindUs{
+    background-color: #B0C7CA;
+    display: flex;
+    align-content: center;
+  }
+
+
+  .findus_text{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+  padding-top: -15%;
+  }
+
+  .footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    margin: 0 auto;
+  }
+
+
+  .footerAGCB{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100%;
+    padding-right: 10%;
+    margin: 0 auto;
+  }
+
+
 }
 
-/* On screens that are 300px wide or less */
-@media screen and (max-width: 300px) {
+/* On screens that are 350px wide or less */
+@media screen and (max-width: 350px) {
+
+.main{
+  width: 100%;
+}
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .Hero{
+    display: flex;
+    width: 100%;
+    background-image: url(../img/Hero.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero_title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70%;
+  }
+
+    h2{
+      font-weight: 600;
+      font-size: 35px;
+    }
+
+    h1{
+      font-weight: 800;
+      font-size: 35px;
+
+    }
+
+  /* About Us Section */
+
+
+      h3{
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding-right: 10%;
+      }
+
+    .sectionbox_images{
+      width: 90%;
+      display: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .imagebox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+        h4{
+          padding-top: 2%;
+          padding-bottom: 2%;
+          padding-left: 5%;
+          padding-right: 5%;
+          font-weight: normal;
+          text-align: center;
+        }
+
+    .sectionbox_text{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      text-align: left;
+      padding-bottom: 10%;
+    }
+
+        .Love{
+          font-family: 'Caveat', cursive;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+  .sectionbox_verse{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+
+  /* Find Us Section */
+
+  .FindUs_img{
+      width: 100%;
+      background-image: url(../img/findus_img.jpg);
+      z-index: 1;
+      height: 200px;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #B0C7CA;
+    }
+
+    .findus_title{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25%;
+    }
+
+    .FindUs{
+      background-color: #B0C7CA;
+      display: flex;
+      align-content: center;
+
+    }
+
+  .FindUs_setup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .findus_text{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+
+  }
+
+  .findus_dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 10%;
+  }
+
+      .findus_dates ul{
+        list-style-type: none;
+        justify-content: center;
+      }
+
+        .findus_dates ul li{
+          font-weight: bold;
+          font-size: 20px;
+        }
+
+          .themes{
+            font-size: 15px;
+            font-style: italic;
+          }
+
+  h5{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  /* Testament Section */
+
+  h6{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+
+      .section_box2{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+
+    .footer{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+    }
+
+      .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    .footerAGCB{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: right;
+    }
 
 }
 
