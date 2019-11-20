@@ -114,31 +114,31 @@ body{
     position: absolute;
     left: 0px;
     top: 0pc;
-    height: 62.3%;
+    height: 536px;
 }
 
 .sidebar_AboutUs{
   min-width: 100px;
 position: absolute;
 left: 0px;
-top: 57.7%;
-height: 138.5%;
+    top: 0pc;
+    height: 1017px;
 }
 
 .sidebar_FindUs{
 min-width: 180px;
 position: absolute;
 left: 0px;
-top: 196.2%;
-height: 125.5%;
+top: 0pc;
+height: 1062px;
 }
 
 .sidebar_Testament{
 min-width: 180px;
 position: absolute;
 left: 0px;
-top: 322%;
-height: 125.5%;
+top: 0pc;
+height: 1007px;
 }
 
 
@@ -256,8 +256,12 @@ header{
 /* About Us Section */
 
 .AboutUs{
+  display: flex;
+  width: 100%;
   background-color: #CA887A;
   padding: 25px;
+  position: relative;
+  min-height: 1017px;
 }
 
     h3{
@@ -332,6 +336,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #B0C7CA;
+    position: relative;
   }
 
   .findus_title{
@@ -392,10 +397,10 @@ header{
         }
 
 h5{
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   font-weight: 300;
-  font-size: 20px;
+  width: 100px;
 }
 
 /* Testament Section */
@@ -414,6 +419,8 @@ h6{
   align-items: center;
   flex-direction: column;
   padding-bottom: 5%;
+  position: relative;
+  min-height: 928px;
 }
 
   .Testament_title{
