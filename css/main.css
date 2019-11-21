@@ -114,7 +114,7 @@ body{
     position: absolute;
     left: 0px;
     top: 0pc;
-    height: 536px;
+    height: 100%;
 }
 
 .sidebar_AboutUs{
@@ -122,7 +122,7 @@ body{
 position: absolute;
 left: 0px;
     top: 0pc;
-    height: 1017px;
+    height: 100%;
 }
 
 .sidebar_FindUs{
@@ -130,7 +130,7 @@ min-width: 180px;
 position: absolute;
 left: 0px;
 top: 0pc;
-height: 1062px;
+height: 100%;
 }
 
 .sidebar_Testament{
@@ -138,7 +138,7 @@ min-width: 180px;
 position: absolute;
 left: 0px;
 top: 0pc;
-height: 1007px;
+height: 100%;
 }
 
 
@@ -157,25 +157,27 @@ height: 1007px;
     padding: 4px;
 }
 
-#testamentbtn{
-  background-color: #ffffff;
-  height: 100%;
-}
 
-#findbtn{
-  background-color: #B0C7CA;
+#homebtn{
+  background-color: #065F61;
   height: 100%;
 }
 
 #aboutbtn{
+  background-color: #B0C7CA;
+  height: 100%;
+}
+
+#findbtn{
   background-color: #CA887A;
   height: 100%;
 }
 
-#homebtn{
-  background-color: #fff;
+#testamentbtn{
+  background-color: #B0C7CA;
   height: 100%;
 }
+
 
 .rotateme{
   transform: rotate(-90deg);
@@ -184,12 +186,10 @@ height: 1007px;
   width: 100%;
 }
 
-.expand{
-}
 
 
 .navbar{
-  width: 60%;
+  width: 95%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -206,6 +206,7 @@ header{
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 
@@ -226,7 +227,7 @@ header{
   display: flex;
   width: 100%;
   background-image: url(../img/hero_img.jpg);
-  height: 15%;
+  height: 10%;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -259,19 +260,26 @@ header{
   display: flex;
   width: 100%;
   background-color: #CA887A;
-  padding: 25px;
   position: relative;
-  min-height: 1017px;
+  height: 100%;
 }
 
-    h3{
-      font-weight: 600;
-      color: #fff;
-      font-size: 50px;
-      padding-left: 2%;
-    }
+h3{
+  font-weight: 600;
+  color: #fff;
+  font-size: 50px;
+}
+
+.AboutUS_title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 7%;
+}
+
 
   .sectionbox_images{
+    padding-top: 10%;
     width: 70%;
     display: grid;
     justify-content: center;
@@ -283,7 +291,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 80%;
     flex-wrap: wrap;
   }
 
@@ -297,13 +305,14 @@ header{
       }
 
   .sectionbox_text{
-    width: 65%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     text-align: left;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    padding-right: 20%;
   }
 
       .Love{
@@ -322,6 +331,8 @@ header{
     font-size: 25px;
     font-weight: 500;
     font-style: italic;
+    padding-bottom: 10%;
+    padding-right: 20%;
   }
 
 
@@ -330,13 +341,12 @@ header{
 .FindUs_img{
     width: 100%;
     background-image: url(../img/findus_img.jpg);
-    z-index: 1;
-    height: 630px;
+    height: 600px;
+    display: flex;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #B0C7CA;
-    position: relative;
+
   }
 
   .findus_title{
@@ -345,25 +355,28 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 2%;
+    padding-left: 10%;
   }
 
   .FindUs{
     background-color: #B0C7CA;
     display: flex;
     align-content: center;
-    margin-top: -5%;
     padding-bottom: 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
 .FindUs_setup{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
 }
 
 .findus_text{
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,7 +387,7 @@ header{
 
 .findus_dates{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
   width: 67%;
   flex-direction: row;
@@ -424,14 +437,17 @@ h6{
 }
 
   .Testament_title{
-    width: 62%;
+    width: 72%;
     display: flex;
     text-align: left;
   }
 
     .test_text{
-      width:60%;
+      display: flex;
+      left: 5px;
+      width:50%;
       color: #fff;
+      font-size: 20px;
       text-align: left;
     }
 
@@ -561,10 +577,37 @@ footer{
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Media Querys -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* On screens that are 1400px wide or less */
-@media screen and (max-width: 1400px) {
+/* On screens that are 1210px wide or less */
+@media screen and (max-width: 1210px) {
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 17%;
+  }
+  .AboutUS_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10%;
+  }
+}
+
+/* On screens that are 1036px wide or less */
+@media screen and (max-width: 1036px) {
+
+  .hero_title {
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding-top: 16%;
+  }
 
 }
+
 
 /* On screens that are 1000px wide or less */
 @media screen and (max-width: 1000px) {
