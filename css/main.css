@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -119,10 +120,10 @@ body{
 
 .sidebar_AboutUs{
   min-width: 100px;
-position: absolute;
-left: 0px;
-    top: 0pc;
-    height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0pc;
+  height: 100%;
 }
 
 .sidebar_FindUs{
@@ -591,8 +592,17 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 10%;
+    padding-left: 12%;
   }
+
+.findus_title{
+  padding-left: 13%
+}
+
+  h3{
+    font-size: 35px
+  }
+
 }
 
 /* On screens that are 1036px wide or less */
@@ -903,6 +913,17 @@ footer{
       padding-top: 16%;
   }
 
+  .AboutUS_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+
+  h3{
+    font-size: 30px}
+  }
+
   .sectionbox_verse{
       font-size: 20px;
     }
@@ -919,7 +940,7 @@ footer{
 
 }
 
-/* On screens that are 705px wide or less */
+/* On screens that are 710px wide or less */
 @media screen and (max-width: 710px) {
 
   .Hero{
@@ -965,6 +986,16 @@ footer{
       padding-top: 13.5%;
   }
 
+  .AboutUS_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+
+  h3{
+    font-size: 30px}
+  }
 
 /* On screens that are 645px wide or less */
 @media screen and (max-width: 646px) {
@@ -1130,6 +1161,55 @@ footer{
     padding-right: 20%;
   }
 
+  .AboutUs{
+    display: flex;
+    width: 100%;
+    background-color: #CA887A;
+    position: relative;
+    height: 100%;
+  }
+
+  h3{
+    font-weight: 600;
+    color: #fff;
+    font-size: px;
+  }
+
+  .AboutUS_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+  }
+
+
+    .sectionbox_images{
+      padding-top: 30%;
+      width: 30%;
+      display: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .imagebox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      padding-left: 10%;
+    }
+
+        h4{
+          padding-top: 2%;
+          padding-bottom: 2%;
+          padding-left: 5%;
+          padding-right: 5%;
+          font-weight: normal;
+          text-align: center;
+        }
+
+
   .FindUs_img{
       width: 100%;
       background-image: url(../img/findus_img.jpg);
@@ -1213,7 +1293,7 @@ footer{
     display: flex;
     width: 100%;
     background-image: url(../img/Hero.jpg);
-    height: 300px;
+    height: 400px;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -1240,9 +1320,17 @@ footer{
     color: #fff;
   }
 
+.AboutUS_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
   .sectionbox_images{
-    width: 90%;
-    display: column;
+    padding-top: 30%;
+    width: 100%;
+    display: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -1252,9 +1340,23 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    padding-left: 20%;
+    width: 45%;
+    z-index: 1;
   }
+
+  .sectionbox_verse{
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: italic;
+      padding-bottom: 10%;
+      padding-right: 30%;
+    }
 
   .FindUs_img{
       width: 100%;
